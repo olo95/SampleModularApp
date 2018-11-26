@@ -2,12 +2,14 @@ platform :ios, '11.0'
 use_frameworks!
 workspace 'SampleModularApp.xcworkspace'
 xcodeproj 'ProjectB/ProjectB.xcodeproj'
-xcodeproj 'ProjectB/ProjectB.xcodeproj'
 xcodeproj 'ProjectA/ProjectA.xcodeproj'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/olo95/SamplePodspecRepo.git'
 
 def common
     pod 'RxSwift'
     pod 'RxCocoa'
+    pod 'SampleModuleC'
 end
 
 target 'ProjectA' do
@@ -17,10 +19,5 @@ end
 
 target 'ProjectB' do
     xcodeproj 'SampleModuleB/ProjectB/ProjectB.xcodeproj'
-    common
-end
-
-target 'ProjectC' do
-    xcodeproj 'SampleModuleC/ProjectC/ProjectC.xcodeproj'
     common
 end

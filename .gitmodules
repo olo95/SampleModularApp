@@ -1,0 +1,9 @@
+[submodule "SampleModuleA"]
+	path = SampleModuleA
+	url = https://github.com/olo95/SampleModuleA.git
+[submodule "SampleModuleB"]
+	path = SampleModuleB
+	url = https://github.com/olo95/SampleModuleB.git
+[submodule "SampleModuleC"]
+	path = SampleModuleC
+	url = https://github.com/olo95/SampleModuleC.git

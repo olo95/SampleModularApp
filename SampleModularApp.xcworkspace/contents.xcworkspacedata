@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SampleModuleC/ProjectC/ProjectC.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:SampleModuleB/ProjectB/ProjectB.xcodeproj">
+      location = "group:SampleModuleC/SampleModuleC">
    </FileRef>
    <FileRef
       location = "group:SampleModuleA/ProjectA/ProjectA.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SampleModuleB/ProjectB/ProjectB.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

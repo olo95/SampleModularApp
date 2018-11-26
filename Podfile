@@ -11,16 +11,16 @@ def common
 end
 
 target 'ProjectA' do
-xcodeproj 'ProjectA/ProjectA/ProjectA.xcodeproj'
-common
+    xcodeproj 'SampleModuleA/ProjectA/ProjectA.xcodeproj'
+    common
 end
 
 target 'ProjectB' do
-xcodeproj 'ProjectB/ProjectB/ProjectB.xcodeproj'
-common
+    xcodeproj 'SampleModuleB/ProjectB/ProjectB.xcodeproj'
+    common
 end
 
 target 'ProjectC' do
-xcodeproj 'ProjectC/ProjectC/ProjectC.xcodeproj'
-common
+    xcodeproj 'SampleModuleC/ProjectC/ProjectC.xcodeproj'
+    common
 end
